@@ -17,6 +17,11 @@ The design specifications for the MechaCar suspension coils dictate that the var
  
  
  - The total variance from the three lots is 62.29356, which meets the design specification of at most 100 pounds per square inch 
+ 
+  ![Images/total_summary.png](Images/total_summary.png)
+  
+ ## T-Tests on Suspension Coils
+ 
 
 ## Study Design: MechaCar vs Competition 
 Question: How does MechaCar perform against its competiton? 
