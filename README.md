@@ -12,4 +12,4 @@ The design specifications for the MechaCar suspension coils dictate that the var
  - Lot 1 meets the design specification with a variance of 0.9795918 pounds per square inch 
  - Lot 2 meets the design specification with a variance of 7.4693878 pounds per square inch 
  - Lot 3 does not meet the design specification with a variance of 170.2861224 pounds per square inch
- - In total, the three lots have a variance of about 178.735 pounds per square inch, which exceeds the design specification of 100 pounds per square inch. 
+ - The total variance from the three lots is 62.29356, which meets the design specification of at most 100 pounds per square inch 
