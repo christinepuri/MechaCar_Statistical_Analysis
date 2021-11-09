@@ -21,8 +21,30 @@ The design specifications for the MechaCar suspension coils dictate that the var
   ![Images/total_summary.png](Images/total_summary.png)
   
  ## T-Tests on Suspension Coils
- 
+  Null Hypothesis: there is no statistical difference between PSI across all manufacturing lots and the population mean of 1,500 pounds per square inch.
+  Alternative Hypothesis: there is a statistical difference between PSI across all manufacturing lots and the population mean of 1,500 pounds per square inch.
+  Significance level: 0.05 
+  With a p-value of 0.06028, the null hypothesis is not rejected. There is no statistical difference between PSI across all manufacturing lots and the population mean of 1,500 pounds per square inch
+  
+  ![Images/t_test1.png](Images/t_test1.png)
+  
+  Null Hypothesis: there is no statistical difference between PSI in each manufacturing lot and the population mean of 1,500 pounds per square inch.
+  Alternative Hypothesis: there is a statistical difference between PSI in each manufacturing lot and the population mean of 1,500 pounds per square inch.
+  Significance level: 0.05 
+  
+  For Manufacturing Lot1, with a p-value of 1, the null hypothesis is not rejected. There is no statistical difference between PSI in Lot1 and the population mean of 1,500 pounds per square inch
 
+ ![Images/lot1_ttest.png](Images/lot1_ttest.png)
+ 
+ For Manufacturing Lot2, with a p-value of 0.602, the null hypothesis is not rejected. There is no statistical difference between PSI in Lot2 and the population mean of 1,500 pounds per square inc
+ 
+ ![Images/lot2_ttest.png](Images/lot2_ttest.png)
+  
+ For Manufacturing Lot1, with a p-value of 0.0416, the null hypothesis is rejected. There is a statistical difference between PSI in Lot3 and the population mean of 1,500 pounds per square inc
+ 
+ ![Images/lot3_ttest.png](Images/lot3_ttest.png)
+ 
+  
 ## Study Design: MechaCar vs Competition 
 Question: How does MechaCar perform against its competiton? 
  - A few metrics that a consumer may consider when purchasing a car are costs, highway fuel efficiency, maintenance costs, and safety rating. 
